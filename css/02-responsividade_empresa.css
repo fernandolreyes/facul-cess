@@ -1,0 +1,176 @@
+@media screen and (min-width: 2559px){
+    section.hero-site {
+    background-image: url(/imagens/inicio/background-2560.png);
+    }
+}
+@media screen and (max-width: 1440px) {
+    /* estilo do logo cabeçalho */
+    header .logo img {
+    max-width: 120px;
+    }
+
+    /* estilo da seção hero */
+    section.hero-site {
+    background-image: url(/imagens/empresa/background-1440.png);
+    }
+    .hero-site .txt-chamada h1 {
+        font-size: 3em;
+        line-height: 50px;
+    }
+    .hero-site .txt-chamada h2 {
+        font-size: 1.5em;
+    }
+
+    /* estido da seção quem somos */
+    .quem-somos-itens .txt-quem-somos h1 {
+        font-size: 2.5em;
+    }
+    .quem-somos-itens .txt-quem-somos p {
+        font-size: 1.2em;
+    }
+    .quem-somos-itens .img-quem-somos img {
+        max-width: 500px;
+    }
+
+    /* estilo da seção missão */
+    .missao-itens .txt-missao h1 {
+        font-size: 2em;
+    }
+    .missao-itens .txt-missao p {
+        font-size: 1.2em;
+    }
+
+    /* estilo da seção visão */
+    .visao-itens .txt-visao h1 {
+        font-size: 2em;
+    }
+    .visao-itens .txt-visao p {
+        font-size: 1.2em;
+    }
+
+    /* estilo da seção valores */
+    .valores .txt-valores h1 {
+        font-size: 2em;
+    }
+    .txt-valores h2 {
+        font-size: 1.5em;
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+    .txt-valores p {
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 1035px) {
+    header .menu-desktop, header .btn-contato {
+        display: none;
+    }
+    header .btn-mobile {
+    display: block;
+    }
+}
+@media screen and (max-width: 884px) {
+    /* estilo da seção hero */
+    section.hero-site {
+    background-image: url(/imagens/empresa/background-884.png);
+    }
+    .hero-site .txt-chamada h1 {
+        font-size: 2.2em;
+        line-height: 50px;
+    }
+    .hero-site .txt-chamada h2 {
+        font-size: 1.08em;
+        font-weight: 100;
+    }
+
+    /* estido da seção quem somos */
+    .quem-somos .quem-somos-itens {
+        display: block;
+        flex-direction: column;
+    }
+    .quem-somos-itens .txt-quem-somos {
+        max-width: 100%;
+    }
+    .quem-somos-itens .txt-quem-somos h1 {
+        font-size: 3em;
+    }
+    .quem-somos-itens .txt-quem-somos p {
+        font-size: 1.3em;
+    }
+   
+    .quem-somos-itens .img-quem-somos img {
+        max-width: 100%;
+    }
+
+    /* estilo da seção rodapé */
+    footer .middle-footer {
+        flex-direction: column;
+    }
+    footer .middle-footer p {
+        font-size: 1em;
+        margin-top: 8px;
+    }
+    footer .middle-footer .e-1 {
+        order: 0;
+    }
+    footer .middle-footer .e-2 {
+        order: 2;
+    }
+    footer .middle-footer .e-3 {
+        order: 1;
+    }
+    footer .bottom-footer {
+        font-size: .62em;
+    }
+}
+@media screen and (max-width: 450px) {
+    /* estilo da seção hero */
+    section.hero-site {
+    background-image: url(/imagens/empresa/background-450.png);
+    }
+    .hero-site .txt-chamada h1 {
+        font-size: 1.2em;
+        line-height: 25px;
+    }
+    .hero-site .txt-chamada h2 {
+        font-size: 1em;
+    }
+
+    /* estido da seção quem somos */
+    .quem-somos-itens .txt-quem-somos h1 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+    .quem-somos-itens .txt-quem-somos p {
+        font-size: 1em;
+    }
+
+    /* estilo da seção missão */
+    .missao-itens .txt-missao h1 {
+        font-size: 1.5em;
+    }
+    .missao-itens .txt-missao p {
+        font-size: 1em;
+    }
+
+    /* estilo da seção visão */
+    .visao-itens .txt-visao h1 {
+        font-size: 1.5em;
+    }
+    .visao-itens .txt-visao p {
+        font-size: 1em;
+    }
+
+    /* estilo da seção valores */
+    .valores .txt-valores h1 {
+        font-size: 1.5em;
+    }
+    .txt-valores h2 {
+        font-size: 1.2em;
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+    .txt-valores p {
+        font-size: 1em;
+    }
+}

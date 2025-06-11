@@ -1,0 +1,217 @@
+@media screen and (min-width: 2559px){
+    section.hero-site {
+    background-image: url(/imagens/soluçoes/bacground-2560.png);
+    }
+}
+@media screen and (max-width: 1440px) {
+    /* estilo do logo cabeçalho */
+    header .logo img {
+    max-width: 120px;
+    }
+
+    /* estilo da seção hero */
+    section.hero-site {
+        background-image: url(/imagens/soluçoes/bacground-1440.png);
+    }
+    .hero-site .txt-chamada h1 {
+        font-size: 3em;
+        line-height: 55px;
+    }
+    .hero-site .txt-chamada h2 {
+        font-size: 3em;
+    }
+
+    /* estilo da seção titulo sgem */
+    .itens-titulo-sgem h1 {
+        font-size: 3.5em;
+        line-height: 60px;
+    }
+    .itens-titulo-sgem img {
+        max-width: 150px;
+    }
+
+    /* estilo da seção sgem */
+    .sgem .sgem-itens .img-sgem img {
+        max-width: 430px;
+    }
+    .sgem .sgem-itens .txt-sgem h2 {
+        font-size: 2.3em;
+    }
+    .sgem .sgem-itens .txt-sgem p {
+        font-size: 1.2em;
+        line-height: 28px;
+    }
+    /* estido da seção titulo assessoria técnica */
+    .itens-titulo-assessoria h1 {
+        font-size: 3.5em;
+    }
+    .itens-titulo-assessoria img {
+        max-width: 150px;
+    }
+
+    /* estilo da seção assessoria */
+    .assessoria .assessoria-itens .img-assessoria img {
+        max-width: 430px;
+    }
+    .assessoria .assessoria-itens .txt-assessoria h2 {
+        font-size: 2.3em;
+    }
+    .assessoria .assessoria-itens .txt-assessoria p {
+        font-size: 1.2em;
+        line-height: 28px;      
+    }
+}
+@media screen and (max-width: 1035px) {
+    header .menu-desktop, header .btn-contato {
+        display: none;
+    }
+    header .btn-mobile {
+    display: block;
+    }
+}
+@media screen and (max-width: 884px) {
+    /* estilo da seção hero */
+    section.hero-site {
+        background-image: url(/imagens/soluçoes/bacground-884.png);
+    }
+    .hero-site .txt-chamada h1 {
+        font-size: 2.3em;
+        line-height: 43px;
+    }
+    .hero-site .txt-chamada h2 {
+        font-size: 2.6em;
+    }
+
+    /* estilo da seção titulo sgem */
+    .itens-titulo-sgem h1 {
+        font-size: 2em;
+        line-height: 35px;
+    }
+    .itens-titulo-sgem img {
+        max-width: 120px;
+        margin-right: 60px;
+    }
+
+    /* estilo da seção sgem */
+    .sgem .sgem-itens {
+        display: block;
+    }
+    .sgem .sgem-itens .img-sgem img {
+        max-width: 100%;
+        margin: 50px auto;
+    }
+    .sgem .sgem-itens .txt-sgem h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    .sgem .sgem-itens .txt-sgem p {
+        font-size: 1.4em;
+        line-height: 28px;
+    }
+
+    /* estido da seção titulo assessoria técnica */
+    .itens-titulo-assessoria h1 {
+        font-size: 3em;
+    }
+    .itens-titulo-assessoria img {
+        max-width: 120px;
+        margin-right: 60px;
+    }
+
+    /* estilo da seção assessoria */
+    .assessoria .assessoria-itens {
+        display: block;
+    }
+    .assessoria .assessoria-itens .img-assessoria img {
+        max-width: 100%;
+        margin-top: 35px;
+    }
+    .assessoria .assessoria-itens .txt-assessoria h2 {
+        font-size: 2.3em;
+    }
+    .assessoria .assessoria-itens .txt-assessoria p {
+        font-size: 1.4em;
+        line-height: 28px;      
+    }
+
+    /* estilo da seção do rodapé */
+    footer .middle-footer {
+        flex-direction: column;
+    }
+    footer .middle-footer p {
+        font-size: 1em;
+        margin-top: 8px;
+    }
+    footer .middle-footer .e-1 {
+        order: 0;
+    }
+    footer .middle-footer .e-2 {
+        order: 2;
+    }
+    footer .middle-footer .e-3 {
+        order: 1;
+    }
+    footer .bottom-footer {
+        font-size: .62em;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    /* estilo da seção hero */
+    section.hero-site {
+        background-image: url(/imagens/soluçoes/bacground-450.png);
+    }
+    .hero-site .txt-chamada h1 {
+        font-size: 1.1em;
+        line-height: 25px;
+    }
+    .hero-site .txt-chamada p {
+        font-size: .8em;
+    }
+
+    /* estilo da seção titulo sgem */
+    .itens-titulo-sgem h1 {
+        font-size: 1.1em;
+        line-height: 20px;
+    }
+    .itens-titulo-sgem img {
+        max-width: 65px;
+        margin-right: 15px;
+    }
+
+    /* estilo da seção sgem */
+    .sgem .sgem-itens .img-sgem img {
+        max-width: 100%;
+        margin: 30px auto;
+    }
+    .sgem .sgem-itens .txt-sgem h2 {
+        font-size: 1.6em;
+    }
+    .sgem .sgem-itens .txt-sgem p {
+        font-size: 1em;
+        line-height: 22px;
+    }
+
+    /* estido da seção titulo assessoria técnica */
+    .itens-titulo-assessoria h1 {
+        font-size: 1.6em;
+    }
+    .itens-titulo-assessoria img {
+        max-width: 70px;
+        margin-right: 20px;
+    }
+
+    /* estilo da seção assessoria */
+    .assessoria .assessoria-itens .img-assessoria img {
+        max-width: 100%;
+        margin-top: 35px;
+    }
+    .assessoria .assessoria-itens .txt-assessoria h2 {
+        font-size: 1.5em;
+    }
+    .assessoria .assessoria-itens .txt-assessoria p {
+        font-size: 1em;
+        line-height: 22px;      
+    }
+}

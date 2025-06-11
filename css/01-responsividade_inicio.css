@@ -1,0 +1,196 @@
+@media screen and (min-width: 2559px){
+    section.hero-site {
+    background-image: url(/imagens/inicio/background-2560.png);
+    }
+}
+@media screen and (max-width: 1440px) {
+    /* estilo do logo cabeçalho */
+    header .logo img {
+    max-width: 120px;
+    }
+
+    /* estilo da seção hero */
+    section.hero-site {
+    background-image: url(/imagens/inicio/background-1440.png);
+    }
+    .hero-site .txt-chamada h1 {
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    /* estilo da seção destaques */
+    .destaques .itens-cess .img-itens img {
+        max-width: 450px;
+    }
+    .destaques .itens-cess .txt-itens h3 {
+        font-size: 2em;
+    }
+    .destaques .itens-cess .txt-itens p {
+        font-size: 1.13em;
+    }
+    .itens-cess .txt-itens p span {
+        font-weight: 300;
+    }
+
+    /* estilo da seção como funciona */
+    .como-funciona .txt-funciona h3 {
+        font-size: 5em;
+        line-height: 75px;
+    }
+    .explicacoes .explica-box h4 {
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 1035px) {
+    header .menu-desktop, header .btn-contato {
+        display: none;
+    }
+    header .btn-mobile {
+    display: block;
+    }
+}
+@media screen and (max-width: 884px) {
+    /* estilo da seção hero */
+    section.hero-site {
+    background-image: url(/imagens/inicio/background-884.png);
+    }
+    .hero-site .txt-chamada h1 {
+        font-size: 2.5em;
+        line-height: 50px;
+    }
+
+    /* estilo da seção destaques */
+    .destaques .itens-cess {
+        flex-direction: column;
+    }
+    .destaques .itens-cess .img-itens img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .destaques .itens-cess .txt-itens h3 {
+        font-size: 1.55em;
+        margin-bottom: 8px;
+    }
+    .destaques .itens-cess .txt-itens p {
+        font-size: 1.35em;
+    }
+    .destaques .itens-cess .item-1 {
+        order: 0;
+    }
+    .destaques .itens-cess .item-2 {
+        order: 1;
+    }
+
+    /* estilo da seção como funciona */
+    .txt-funciona, .explicacoes {
+        display: block;
+        width: 100%;
+    }
+    .como-funciona .txt-funciona {
+        position: static;
+    }
+    .como-funciona .txt-funciona h3 {
+        font-size: 3.7em;
+        line-height: 60px;
+    }
+    .explicacoes .explica-box {
+        flex-direction: column;
+    }
+    .explicacoes .explica-box img {
+        max-width: 75px;
+    }
+    .explicacoes .explica-box h4 {
+        font-size: 1.5em;
+    }
+    .explicacoes .explica-box p {
+        font-size: 1em;
+    }
+
+    /* estilo da seção formulário */
+    .contato {
+        margin: 45px 4%;
+    }
+    .contato form {
+        background-color: none;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    form h1 {
+        font-size: 2.3em;
+    }
+    form p {
+        font-size: 1.3em; 
+    }
+
+    /* estilo da seção rodapé */
+    footer .middle-footer {
+        flex-direction: column;
+    }
+    footer .middle-footer p {
+        font-size: 1em;
+        margin-top: 8px;
+    }
+    footer .middle-footer .e-1 {
+        order: 0;
+    }
+    footer .middle-footer .e-2 {
+        order: 2;
+    }
+    footer .middle-footer .e-3 {
+        order: 1;
+    }
+    footer .bottom-footer {
+        font-size: .62em;
+    }
+}
+@media screen and (max-width: 450px) {
+    /* estilo da seção hero */
+     section.hero-site {
+    background-image: url(/imagens/inicio/background-450.png);
+    }
+    .hero-site .txt-chamada h1 {
+        font-size: 1.3em;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .hero-site .txt-chamada p {
+        font-size: .66em;
+        line-height: 20px;
+    }
+    .hero-site .btn-saber button {
+        width: 120px;
+        height: 40px;
+        font-size: .7em;
+    }
+
+    /* estilo da seção destaques */
+    .destaques .itens-cess .txt-itens h3 {
+        font-size: 1.12em;
+        margin-bottom: 8px;
+    }
+    .destaques .itens-cess .txt-itens p {
+        font-size: 1em;
+    }
+
+    /* estilo da seção como funciona */
+    .explicacoes .explica-box img {
+        max-width: 65px;
+    }
+    .explicacoes .explica-box h4 {
+        font-size: 1.2em;
+    }
+    .explicacoes .explica-box p {
+        font-size: .85em;
+    }
+
+
+    /* estilo da seção formulário */
+    form h1 {
+        font-size: 1.5em;
+    }
+    form p {
+        font-size: .7em; 
+    }
+
+}
+

@@ -1,0 +1,347 @@
+/* estilo base da pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background-color: #f4f4f4;
+}
+.interface {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+/* estilo do header */
+header {
+    width: 100%;
+    padding: 27px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    z-index: 100;
+}
+/* estilo do header dinamico  */
+header.menu-dinamico {
+    /* background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(10, 10, 79, 1) 35%, rgba(2, 0, 36, 1) 100%); */
+    background-color: rgb(6, 3, 49);
+    padding: 20px 0;
+    box-shadow: 0 0 8px #000;
+}
+/* -------------------------- */
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img {
+    max-width: 160px;
+}
+header .menu-desktop nav ul {
+    list-style-type: none;
+}
+header .menu-desktop nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+header .menu-desktop nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .85em;
+    display: inline-block;
+    transition: 0.2s;
+}
+.menu-desktop nav a:hover {
+    transform: scale(1.20);
+
+}
+header .btn-contato button {
+    width: 130px;
+    height: 40px;
+    font-size: .85em;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 2.2px;
+}
+.btn-contato button:hover{
+    background-color: #fff;
+    color: rgba(10, 10, 79, 1);
+}
+
+/* estilo botão menu mobile */
+header .btn-mobile {
+    display: none;
+    z-index: 100;
+    position: relative;
+}
+header .btn-mobile div {
+    background-color: #fff;
+    height: 2px;
+    margin: 10px 0;
+    transition: .2s;
+}
+header .btn-mobile .line-1 {
+    width: 27px;
+}
+header .btn-mobile .line-2 {
+    width: 20px;
+}
+header .btn-mobile .line-1.ativo1 {
+    transform: rotate(45deg) translate(32%);
+}
+header .btn-mobile .line-2.ativo2 {
+    transform: rotate(-45deg) translate(30%);
+    width: 27px;
+}
+
+/* estilo menu mobile */
+header .menu-mobile {
+    width: 0;
+    height: 0;
+    background-color: rgba(6, 3, 49);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: .5s;
+}
+header .menu-mobile nav {
+    width: 100%;
+}
+header .menu-mobile nav ul {
+    list-style-type: none;
+
+}
+header .menu-mobile nav a {
+    font-size: 1.7em;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0;
+    display: block;
+    transition: .5s;
+}
+header .menu-mobile nav a:hover {
+    background-color: #fff;
+    color: rgb(6, 3, 49);
+    box-shadow: 0 0 10px #fff;
+}
+header .menu-mobile.abrir {
+    width: 100%;
+    height: 100vh;
+}
+
+/* estilo da seção hero */
+section.hero-site {
+    /* background: url('/imagens/inicio/introdução-1920.jpg') center no-repeat;
+    height: 95vh;
+    box-shadow: 0 0 20px #000; */
+    background: url('/imagens/empresa/background-1920.png') no-repeat;
+    height: 100vh;
+    background-position: 0% 100%;
+    color: #fff;
+}
+.hero-site .interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.hero-site {
+    padding-bottom: 100px;
+}
+.hero-site .txt-chamada h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.hero-site .txt-chamada h1 span { 
+    font-weight: 200;
+}
+.hero-site .txt-chamada p {
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 1.2em;
+    text-align: justify;
+    text-align-last: left;
+}
+.hero-site .txt-chamada p span {
+    font-weight: 200;
+}
+
+/* estido da seção quem somos */
+section.quem-somos .interface{
+    background-color: #e3e3e3;
+}
+.quem-somos .quem-somos-itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8%;
+    margin-bottom: 80px;
+    padding: 80px 0;
+}
+.quem-somos-itens .txt-quem-somos {
+    max-width: 50%;
+}
+.quem-somos-itens .txt-quem-somos h1 {
+    font-size: 4em;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+.quem-somos-itens .txt-quem-somos p {
+    font-size: 1.6em;
+    line-height: 35px;
+    text-align: justify;
+    font-weight: 300;
+}
+.quem-somos-itens .txt-quem-somos p span {
+    font-weight: 400;
+}
+.quem-somos-itens .img-quem-somos img {
+    max-width: 850px;
+}
+
+/* estilo da seção missão */
+section.missao .interface{
+    background-color: #e3e3e3;
+}
+.missao .missao-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    padding: 80px 0;
+}
+.missao-itens .txt-missao {
+    max-width: 100%;
+}
+.missao-itens .txt-missao h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+.missao-itens .txt-missao p {
+    font-size: 1.6em;
+    line-height: 35px;
+    text-align: justify;
+    font-weight: 300;
+}
+.missao-itens .txt-missao p span {
+    font-weight: 400;
+}
+.pri-paragrafo {
+    margin-bottom: 20px;
+}
+.seg-paragrafo {
+    margin-bottom: 20px;
+}
+
+/* estilo da seção visão */
+section.visao .interface{
+    background-color: #e3e3e3;
+}
+.visao .visao-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    padding: 80px 0;
+}
+.visao-itens .txt-visao {
+    max-width: 100%;
+}
+.visao-itens .txt-visao h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+.visao-itens .txt-visao p {
+    font-size: 1.6em;
+    line-height: 35px;
+    text-align: justify;
+    font-weight: 300;
+}
+.visao-itens .txt-visao p span {
+    font-weight: 400;
+}
+
+/* estilo da seção valores */
+section.valores .interface{
+    background-color: #e3e3e3;
+}
+.valores .valores-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    padding: 80px 0;
+}
+.valores-itens .txt-valores {
+    max-width: 100%;
+}
+.valores .txt-valores h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+.txt-valores h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.txt-valores p {
+    font-size: 1.6em;
+    line-height: 35px;
+    text-align: justify;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+/* estilo do rodapé */
+footer {
+    background: linear-gradient(90deg,rgb(6, 3, 49) 0%, rgba(10, 10, 79, 1) 35%, rgb(6, 3, 49) 100%);
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    color: #fff;
+    box-shadow: 0 0 8px #000;
+    z-index: 100;
+}
+footer .top-footer button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin: 0 10px;
+}
+footer .top-footer button:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+}
+footer .middle-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+footer .middle-footer p {
+    font-size: 1em;
+}
+footer .bottom-footer {
+    font-size: .8em;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+}
