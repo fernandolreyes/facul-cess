@@ -1,6 +1,6 @@
 @media screen and (min-width: 2559px){
     section.hero-site {
-    background-image: url(imagens/inicio/background-2560.png);
+    background-image: url(../imagens/inicio/background-2560.png);
     }
 }
 @media screen and (max-width: 1440px) {
@@ -11,7 +11,7 @@
 
     /* estilo da seção hero */
     section.hero-site {
-    background-image: url(imagens/empresa/background-1440.png);
+    background-image: url(../imagens/empresa/background-1440.png);
     }
     .hero-site .txt-chamada h1 {
         font-size: 3em;
@@ -72,7 +72,7 @@
 @media screen and (max-width: 884px) {
     /* estilo da seção hero */
     section.hero-site {
-    background-image: url(imagens/empresa/background-884.png);
+    background-image: url(../imagens/empresa/background-884.png);
     }
     .hero-site .txt-chamada h1 {
         font-size: 2.2em;
@@ -126,7 +126,7 @@
 @media screen and (max-width: 450px) {
     /* estilo da seção hero */
     section.hero-site {
-    background-image: url(imagens/empresa/background-450.png);
+    background-image: url(../imagens/empresa/background-450.png);
     }
     .hero-site .txt-chamada h1 {
         font-size: 1.2em;
