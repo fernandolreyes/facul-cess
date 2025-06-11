@@ -141,10 +141,10 @@ header .menu-mobile.abrir {
 
 /* estilo da seção hero */
 section.hero-site {
-    /* background: url('/imagens/inicio/introdução-1920.jpg') center no-repeat;
+    /* background: url('imagens/inicio/introdução-1920.jpg') center no-repeat;
     height: 95vh;
     box-shadow: 0 0 20px #000; */
-    background: url('/imagens/empresa/background-1920.png') no-repeat;
+    background: url('imagens/empresa/background-1920.png') no-repeat;
     height: 100vh;
     background-position: 0% 100%;
     color: #fff;
